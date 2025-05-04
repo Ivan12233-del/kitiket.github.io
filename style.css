@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #000; /* Черный фон космоса */
+    color: #eee; /* Светлый текст */
+}
+
+header {
+    background-color: rgba(50, 50, 50, 0.8); /* Полупрозрачный серый заголовок */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(30, 30, 30, 0.7); /* Полупрозрачный темно-серый фон секций */
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #ddd;
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+section img {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 4px;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(50, 50, 50, 0.8);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
